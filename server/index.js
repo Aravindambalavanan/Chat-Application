@@ -11,7 +11,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: 'https://localhost:5173',
+    origin: 'https://chat-application-beta-blond.vercel.app',
     methods: ["GET", "POST"],
   },
 });
